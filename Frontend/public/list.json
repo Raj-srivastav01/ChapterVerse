@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "Exciting Tales for Kids",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 2,
+    "name": "Drama Book",
+    "title": "Life Behind Curtains",
+    "price": 100,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/open-book-circus-theme_1308-24774.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 3,
+    "name": "Novel",
+    "title": "Journey of Dreams",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/open-red-book-rabbit_18591-77091.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 4,
+    "name": "Sports Book",
+    "title": "Winning Tactics",
+    "price": 80,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/colorful-sport-flyer-template_23-2148343995.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 5,
+    "name": "Poetry Book",
+    "title": "Rhymes of Nature",
+    "price": 60,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 6,
+    "name": "Adventure Book",
+    "title": "Beyond the Horizon",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/turn-page-collage_23-2149876302.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 7,
+    "name": "Mystery Book",
+    "title": "The Hidden Truth",
+    "price": 150,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 8,
+    "name": "Fantasy Book",
+    "title": "World of Wonders",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/international-day-education-cartoon-style_23-2151007399.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 9,
+    "name": "Science Book",
+    "title": "Understanding the Universe",
+    "price": 200,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 10,
+    "name": "History Book",
+    "title": "Echoes of the Past",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/open-book-more-books_23-2148213824.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 11,
+    "name": "Art Book",
+    "title": "Canvas of Imagination",
+    "price": 70,
+    "category": "Paid",
+    "image": "https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  },
+  {
+    "id": 12,
+    "name": "Kids Book",
+    "title": "Adventures for Young Minds",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/reading_1308-33206.jpg?uid=R158634935&ga=GA1.1.1519130685.1733637029&semt=ais_hybrid"
+  }
+]
