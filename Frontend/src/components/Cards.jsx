@@ -9,43 +9,7 @@ function Cards({ item }) {
     setUser(storedUser);
   }, []);
 
-  useEffect(() => {
-    // Load Razorpay script once when component mounts
-    const script = document.createElement("script");
-    script.src = "https://checkout.razorpay.com/v1/checkout.js";
-    script.async = true;
-    script.onload = () => console.log("Razorpay script loaded!");
-    document.body.appendChild(script);
-  }, []);
 
-  const handlePayment = async () => {
-    if (!user) {
-      toast.error("Please log in to continue");
-      return;
-    }
-
-    const options = {
-      key: import.meta.env.VITE_RAZORPAY_KEY_ID, // Ensure VITE_ prefix in .env
-      amount: item.price * 100,
-      currency: "INR",
-      name: "Your Store Name",
-      description: `Payment for ${item.name}`,
-      handler: function (response) {
-        toast.success("Payment Successful!");
-        console.log(response);
-      },
-      prefill: {
-        email: user?.email || "test@example.com",
-        contact: "6394924583",
-      },
-      theme: {
-        color: "#3399cc",
-      },
-    };
-
-    const razorpay = new window.Razorpay(options);
-    razorpay.open();
-  };
 
   return (
     <div className="mt-4 my-3">
@@ -63,7 +27,7 @@ function Cards({ item }) {
             <div className="px-2 py-1 rounded border">₹{item.price}</div>
             <div
               className="cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200 p-2"
-              onClick={handlePayment} // Attach payment function
+              // Attach payment function
             >
               Buy Now
             </div>
